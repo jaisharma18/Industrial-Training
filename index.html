@@ -17,9 +17,9 @@
 }
 
 .img img {
-  max-width: 32%;
+  max-width: 33%;
   float: left;
-  margin-right: 1%;
+  margin-right: 2%;
 }
 
 .wrapper {
@@ -53,6 +53,14 @@
 .top {
   display: grid;
   grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.top #st {
+  background: snow;
+  padding: 10px;
+  border: 10px solid black;
+  text-align: center;
 }
 
 
@@ -65,7 +73,7 @@
 .feature {
   background: lawngreen;
   padding: 10px;
-  border: 1px solid white;
+  border: 5px solid white;
   text-align: center;
 }
 
@@ -75,7 +83,6 @@
 
 .feature p {
   color: navy;
-  font-size: 10px solid;
 }
 
 .about {
@@ -129,13 +136,24 @@
 
         <div class="img">
             <img src="https://jaisharma18.github.io/Industrial-Training/tacos.jpg" alt="">
-            <img src="https://jaisharma18.github.io/Industrial-Training/pizza.jpg" style="height: 268px;" alt="">
-            <img src="https://jaisharma18.github.io/Industrial-Training/pasta.jpg" alt="">  
+            <img src="https://jaisharma18.github.io/Industrial-Training/pizza.jpg" style="height: 277px;" alt="">
+            <img src="https://jaisharma18.github.io/Industrial-Training/pasta.jpg" style="margin-right: 0px;" alt="">  
         </div>
 
 
       <div class="top">
-          
+          <div id="st">
+            <h1>TACOS</h1>
+            <p style="font-size:x-large">$ 15</p>
+          </div>
+          <div id="st">
+            <h1>PIZZA</h1>
+            <p style="font-size:x-large">$ 25</p>
+          </div>
+          <div id="st">
+            <h1>PASTA</h1>
+            <p style="font-size:x-large">$ 20</p>
+          </div>
       </div>
   
 
@@ -143,22 +161,22 @@
         <div class="feature">
             <span class="icon">🌮</span>
           <h3 style="padding-top: 6px;">Tacos</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+          <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
         </div>
         <div class="feature">
           <span class="icon">🍺</span>
           <h3>Pizza</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+          <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
         </div>
         <div class="feature">
         <span class="icon">🍷</span>
           <h3>Drinks</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+          <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
         </div>
         <div class="feature">
           <span class="icon">🎵</span>
           <h3>Music</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+          <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
         </div>
     </div>
   
@@ -185,6 +203,11 @@
         <img src="https://source.unsplash.com/random/207x209" alt="">
         <img src="https://source.unsplash.com/random/207x210" alt="">
       </div>
+
+    <div class="con" style="width: 100%; height: auto; background-color: lightblue;">
+      <h1 style="text-align: right; padding-right: 250px;">More Information Contact :</h1>
+      <div style="float: right; font-size: x-large; color: black; padding-right: 40px;">226548, 9635812490</div>
+    </div>
     </div>
 </body>
 </html>
